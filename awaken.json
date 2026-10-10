@@ -1,6 +1,8 @@
 {
-  "theme": "dark",
-  "title": "My Developer Stats",
-  "activityStyle": "default",
-  "timezone": "Asia/Ho_Chi_Minh"
+  "theme": "solo_leveling",
+  "activity": "arise",
+  "icons": "brand",
+  "motion": "full",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "hours": true
 }
