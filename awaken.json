@@ -1,8 +1,8 @@
 {
+  "username": "anhdangtutien",
+  "layout": "default",
   "theme": "solo_leveling",
   "activity": "arise",
-  "icons": "brand",
-  "motion": "full",
-  "timezone": "Asia/Ho_Chi_Minh",
-  "hours": true
+  "title": "auto",
+  "timezone": "Asia/Ho_Chi_Minh"
 }
