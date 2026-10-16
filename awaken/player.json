@@ -50,6 +50,13 @@
   ],
   "events": [
     {
+      "kind": "achievement",
+      "subject": "collector",
+      "from": "0",
+      "to": "1",
+      "at": "2026-10-16T19:55:48.182Z"
+    },
+    {
       "kind": "stat",
       "subject": "VIT",
       "from": "D",
@@ -177,7 +184,7 @@
     {
       "id": "daily-grinder",
       "tier": 0,
-      "value": 1
+      "value": 2
     },
     {
       "id": "perfect-week",
@@ -187,7 +194,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 7
+      "value": 10
     },
     {
       "id": "boss-slayer",
@@ -201,12 +208,17 @@
     },
     {
       "id": "collector",
-      "tier": 0,
-      "value": 3
+      "tier": 1,
+      "value": 4
     }
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-16",
+        "cleared": 3,
+        "total": 3
+      },
       {
         "date": "2026-10-15",
         "cleared": 2,
@@ -238,17 +250,18 @@
         "total": 3
       }
     ],
-    "perfectDays": 1,
-    "run": 0,
+    "perfectDays": 2,
+    "run": 1,
     "bestRun": 1,
-    "questsDone": 7,
+    "questsDone": 10,
     "bosses": [],
     "escapes": 2,
     "kinds": [
       "contribute",
       "average",
-      "three"
+      "three",
+      "mp"
     ]
   },
-  "syncedAt": "2026-10-15T20:19:15.362Z"
+  "syncedAt": "2026-10-16T19:55:48.182Z"
 }
