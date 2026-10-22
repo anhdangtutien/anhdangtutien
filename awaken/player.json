@@ -55,20 +55,6 @@
       "from": "0",
       "to": "1",
       "at": "2026-10-16T19:55:48.182Z"
-    },
-    {
-      "kind": "stat",
-      "subject": "VIT",
-      "from": "D",
-      "to": "C",
-      "at": "2026-10-15T20:19:15.362Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "gate-opener",
-      "from": "0",
-      "to": "1",
-      "at": "2026-10-15T20:19:15.362Z"
     }
   ],
   "achievements": [
@@ -201,6 +187,11 @@
   "quests": {
     "days": [
       {
+        "date": "2026-10-22",
+        "cleared": 0,
+        "total": 3
+      },
+      {
         "date": "2026-10-21",
         "cleared": 0,
         "total": 3
@@ -274,5 +265,5 @@
       "mp"
     ]
   },
-  "syncedAt": "2026-10-21T20:36:09.560Z"
+  "syncedAt": "2026-10-22T20:33:00.502Z"
 }
