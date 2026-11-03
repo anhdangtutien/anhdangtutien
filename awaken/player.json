@@ -1,8 +1,8 @@
 {
   "login": "anhdangtutien",
-  "level": 3,
-  "overall": "E",
-  "overallPercentile": 0.3202468974261023,
+  "level": 4,
+  "overall": "D",
+  "overallPercentile": 0.5543087373285279,
   "layout": "default",
   "class": {
     "name": "Novice",
@@ -19,9 +19,9 @@
     },
     {
       "code": "AGI",
-      "value": 0,
-      "rank": "E",
-      "percentile": 0
+      "value": 1,
+      "rank": "C",
+      "percentile": 0.6451754090724036
     },
     {
       "code": "INT",
@@ -48,12 +48,55 @@
       "percentile": 0
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "kind": "level",
+      "subject": "Level",
+      "from": "3",
+      "to": "4",
+      "at": "2026-11-03T22:16:58.106Z"
+    },
+    {
+      "kind": "overall",
+      "subject": "Overall rank",
+      "from": "E",
+      "to": "D",
+      "at": "2026-11-03T22:16:58.106Z"
+    },
+    {
+      "kind": "stat",
+      "subject": "AGI",
+      "from": "E",
+      "to": "C",
+      "at": "2026-11-03T22:16:58.106Z"
+    },
+    {
+      "kind": "achievement",
+      "subject": "yolo",
+      "from": "0",
+      "to": "1",
+      "at": "2026-11-03T22:16:58.106Z"
+    },
+    {
+      "kind": "achievement",
+      "subject": "raider",
+      "from": "0",
+      "to": "1",
+      "at": "2026-11-03T22:16:58.106Z"
+    },
+    {
+      "kind": "achievement",
+      "subject": "escape-artist",
+      "from": "0",
+      "to": "1",
+      "at": "2026-11-03T22:16:58.106Z"
+    }
+  ],
   "achievements": [
     {
       "id": "pull-shark",
       "tier": 0,
-      "value": 0
+      "value": 1
     },
     {
       "id": "quickdraw",
@@ -62,8 +105,8 @@
     },
     {
       "id": "yolo",
-      "tier": 0,
-      "value": 0
+      "tier": 1,
+      "value": 1
     },
     {
       "id": "relentless",
@@ -88,17 +131,17 @@
     {
       "id": "weekend-warrior",
       "tier": 2,
-      "value": 41
+      "value": 40
     },
     {
       "id": "gate-opener",
       "tier": 1,
-      "value": 5
+      "value": 6
     },
     {
       "id": "raider",
-      "tier": 0,
-      "value": 0
+      "tier": 1,
+      "value": 1
     },
     {
       "id": "flawless",
@@ -143,7 +186,7 @@
     {
       "id": "diligent",
       "tier": 0,
-      "value": 20
+      "value": 21
     },
     {
       "id": "daily-grinder",
@@ -158,7 +201,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 11
+      "value": 12
     },
     {
       "id": "boss-slayer",
@@ -167,8 +210,8 @@
     },
     {
       "id": "escape-artist",
-      "tier": 0,
-      "value": 2
+      "tier": 1,
+      "value": 3
     },
     {
       "id": "collector",
@@ -178,6 +221,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-03",
+        "cleared": 1,
+        "total": 3
+      },
       {
         "date": "2026-11-02",
         "cleared": 0,
@@ -302,9 +350,9 @@
     "perfectDays": 2,
     "run": 0,
     "bestRun": 1,
-    "questsDone": 11,
+    "questsDone": 12,
     "bosses": [],
-    "escapes": 2,
+    "escapes": 3,
     "kinds": [
       "contribute",
       "average",
@@ -312,5 +360,5 @@
       "mp"
     ]
   },
-  "syncedAt": "2026-11-02T23:51:57.169Z"
+  "syncedAt": "2026-11-03T22:16:58.106Z"
 }
