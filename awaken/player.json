@@ -2,7 +2,7 @@
   "login": "anhdangtutien",
   "level": 4,
   "overall": "D",
-  "overallPercentile": 0.5543087373285279,
+  "overallPercentile": 0.5566521462776539,
   "layout": "default",
   "class": {
     "name": "Novice",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 55,
+      "value": 58,
       "rank": "D",
-      "percentile": 0.5338273031577457
+      "percentile": 0.5469204347778959
     },
     {
       "code": "AGI",
@@ -49,6 +49,20 @@
     }
   ],
   "events": [
+    {
+      "kind": "achievement",
+      "subject": "night-owl",
+      "from": "0",
+      "to": "1",
+      "at": "2026-11-06T22:04:09.604Z"
+    },
+    {
+      "kind": "achievement",
+      "subject": "polyglot",
+      "from": "0",
+      "to": "1",
+      "at": "2026-11-06T22:04:09.604Z"
+    },
     {
       "kind": "level",
       "subject": "Level",
@@ -111,7 +125,7 @@
     {
       "id": "relentless",
       "tier": 0,
-      "value": 55
+      "value": 58
     },
     {
       "id": "unbroken",
@@ -120,8 +134,8 @@
     },
     {
       "id": "night-owl",
-      "tier": 0,
-      "value": 16
+      "tier": 1,
+      "value": 21
     },
     {
       "id": "early-bird",
@@ -131,7 +145,7 @@
     {
       "id": "weekend-warrior",
       "tier": 2,
-      "value": 40
+      "value": 38
     },
     {
       "id": "gate-opener",
@@ -155,8 +169,8 @@
     },
     {
       "id": "polyglot",
-      "tier": 0,
-      "value": 1
+      "tier": 1,
+      "value": 3
     },
     {
       "id": "star-collector",
@@ -186,7 +200,7 @@
     {
       "id": "diligent",
       "tier": 0,
-      "value": 21
+      "value": 22
     },
     {
       "id": "daily-grinder",
@@ -201,7 +215,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 13
+      "value": 15
     },
     {
       "id": "boss-slayer",
@@ -211,7 +225,7 @@
     {
       "id": "escape-artist",
       "tier": 1,
-      "value": 3
+      "value": 4
     },
     {
       "id": "collector",
@@ -221,6 +235,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-06",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-11-05",
         "cleared": 0,
@@ -360,9 +379,9 @@
     "perfectDays": 2,
     "run": 0,
     "bestRun": 1,
-    "questsDone": 13,
+    "questsDone": 15,
     "bosses": [],
-    "escapes": 3,
+    "escapes": 4,
     "kinds": [
       "contribute",
       "average",
@@ -370,5 +389,5 @@
       "mp"
     ]
   },
-  "syncedAt": "2026-11-05T22:39:44.774Z"
+  "syncedAt": "2026-11-06T22:04:09.604Z"
 }
