@@ -51,6 +51,13 @@
   "events": [
     {
       "kind": "achievement",
+      "subject": "boss-slayer",
+      "from": "0",
+      "to": "1",
+      "at": "2026-11-07T20:51:06.059Z"
+    },
+    {
+      "kind": "achievement",
       "subject": "night-owl",
       "from": "0",
       "to": "1",
@@ -94,13 +101,6 @@
     {
       "kind": "achievement",
       "subject": "raider",
-      "from": "0",
-      "to": "1",
-      "at": "2026-11-03T22:16:58.106Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "escape-artist",
       "from": "0",
       "to": "1",
       "at": "2026-11-03T22:16:58.106Z"
@@ -215,12 +215,12 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 15
+      "value": 17
     },
     {
       "id": "boss-slayer",
-      "tier": 0,
-      "value": 0
+      "tier": 1,
+      "value": 1
     },
     {
       "id": "escape-artist",
@@ -230,11 +230,16 @@
     {
       "id": "collector",
       "tier": 1,
-      "value": 4
+      "value": 5
     }
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-07",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-11-06",
         "cleared": 2,
@@ -379,15 +384,18 @@
     "perfectDays": 2,
     "run": 0,
     "bestRun": 1,
-    "questsDone": 15,
-    "bosses": [],
+    "questsDone": 17,
+    "bosses": [
+      "2026-11-02"
+    ],
     "escapes": 4,
     "kinds": [
       "contribute",
       "average",
       "three",
-      "mp"
+      "mp",
+      "commit"
     ]
   },
-  "syncedAt": "2026-11-06T22:04:09.604Z"
+  "syncedAt": "2026-11-07T20:51:06.059Z"
 }
