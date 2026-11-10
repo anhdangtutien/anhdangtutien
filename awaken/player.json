@@ -69,41 +69,6 @@
       "from": "0",
       "to": "1",
       "at": "2026-11-06T22:04:09.604Z"
-    },
-    {
-      "kind": "level",
-      "subject": "Level",
-      "from": "3",
-      "to": "4",
-      "at": "2026-11-03T22:16:58.106Z"
-    },
-    {
-      "kind": "overall",
-      "subject": "Overall rank",
-      "from": "E",
-      "to": "D",
-      "at": "2026-11-03T22:16:58.106Z"
-    },
-    {
-      "kind": "stat",
-      "subject": "AGI",
-      "from": "E",
-      "to": "C",
-      "at": "2026-11-03T22:16:58.106Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "yolo",
-      "from": "0",
-      "to": "1",
-      "at": "2026-11-03T22:16:58.106Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "raider",
-      "from": "0",
-      "to": "1",
-      "at": "2026-11-03T22:16:58.106Z"
     }
   ],
   "achievements": [
@@ -235,6 +200,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-10",
+        "cleared": 0,
+        "total": 3
+      },
       {
         "date": "2026-11-09",
         "cleared": 0,
@@ -407,5 +377,5 @@
       "commit"
     ]
   },
-  "syncedAt": "2026-11-10T00:40:26.682Z"
+  "syncedAt": "2026-11-10T22:20:24.454Z"
 }
