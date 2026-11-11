@@ -9,7 +9,7 @@
     "element": "Neutral",
     "from": "PLpgSQL"
   },
-  "title": "Weekend Warrior",
+  "title": "Polyglot",
   "stats": [
     {
       "code": "STR",
@@ -49,6 +49,13 @@
     }
   ],
   "events": [
+    {
+      "kind": "achievement",
+      "subject": "polyglot",
+      "from": "1",
+      "to": "2",
+      "at": "2026-11-11T23:26:55.433Z"
+    },
     {
       "kind": "achievement",
       "subject": "boss-slayer",
@@ -110,12 +117,12 @@
     {
       "id": "weekend-warrior",
       "tier": 2,
-      "value": 38
+      "value": 37
     },
     {
       "id": "gate-opener",
       "tier": 1,
-      "value": 6
+      "value": 7
     },
     {
       "id": "raider",
@@ -134,8 +141,8 @@
     },
     {
       "id": "polyglot",
-      "tier": 1,
-      "value": 3
+      "tier": 2,
+      "value": 5
     },
     {
       "id": "star-collector",
@@ -165,7 +172,7 @@
     {
       "id": "diligent",
       "tier": 0,
-      "value": 22
+      "value": 23
     },
     {
       "id": "daily-grinder",
@@ -180,7 +187,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 17
+      "value": 18
     },
     {
       "id": "boss-slayer",
@@ -190,7 +197,7 @@
     {
       "id": "escape-artist",
       "tier": 1,
-      "value": 4
+      "value": 5
     },
     {
       "id": "collector",
@@ -200,6 +207,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-11",
+        "cleared": 1,
+        "total": 3
+      },
       {
         "date": "2026-11-10",
         "cleared": 0,
@@ -364,11 +376,11 @@
     "perfectDays": 2,
     "run": 0,
     "bestRun": 1,
-    "questsDone": 17,
+    "questsDone": 18,
     "bosses": [
       "2026-11-02"
     ],
-    "escapes": 4,
+    "escapes": 5,
     "kinds": [
       "contribute",
       "average",
@@ -377,5 +389,5 @@
       "commit"
     ]
   },
-  "syncedAt": "2026-11-10T22:20:24.454Z"
+  "syncedAt": "2026-11-11T23:26:55.433Z"
 }
