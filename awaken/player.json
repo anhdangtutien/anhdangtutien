@@ -2,20 +2,20 @@
   "login": "anhdangtutien",
   "level": 4,
   "overall": "D",
-  "overallPercentile": 0.5566521462776539,
+  "overallPercentile": 0.5901953521857329,
   "layout": "default",
   "class": {
     "name": "Novice",
     "element": "Neutral",
     "from": "PLpgSQL"
   },
-  "title": "Polyglot",
+  "title": "The Collector",
   "stats": [
     {
       "code": "STR",
-      "value": 58,
-      "rank": "D",
-      "percentile": 0.5469204347778959
+      "value": 85,
+      "rank": "C",
+      "percentile": 0.6396164538760774
     },
     {
       "code": "AGI",
@@ -31,9 +31,9 @@
     },
     {
       "code": "VIT",
-      "value": 4,
+      "value": 5,
       "rank": "C",
-      "percentile": 0.6331483952649493
+      "percentile": 0.728198512785954
     },
     {
       "code": "LUK",
@@ -49,6 +49,20 @@
     }
   ],
   "events": [
+    {
+      "kind": "stat",
+      "subject": "STR",
+      "from": "D",
+      "to": "C",
+      "at": "2026-11-12T22:43:03.102Z"
+    },
+    {
+      "kind": "achievement",
+      "subject": "berserker",
+      "from": "0",
+      "to": "1",
+      "at": "2026-11-12T22:43:03.102Z"
+    },
     {
       "kind": "achievement",
       "subject": "polyglot",
@@ -97,7 +111,7 @@
     {
       "id": "relentless",
       "tier": 0,
-      "value": 58
+      "value": 85
     },
     {
       "id": "unbroken",
@@ -107,7 +121,7 @@
     {
       "id": "night-owl",
       "tier": 1,
-      "value": 21
+      "value": 24
     },
     {
       "id": "early-bird",
@@ -116,8 +130,8 @@
     },
     {
       "id": "weekend-warrior",
-      "tier": 2,
-      "value": 37
+      "tier": 1,
+      "value": 27
     },
     {
       "id": "gate-opener",
@@ -141,8 +155,8 @@
     },
     {
       "id": "polyglot",
-      "tier": 2,
-      "value": 5
+      "tier": 1,
+      "value": 4
     },
     {
       "id": "star-collector",
@@ -166,13 +180,13 @@
     },
     {
       "id": "berserker",
-      "tier": 0,
-      "value": 9
+      "tier": 1,
+      "value": 27
     },
     {
       "id": "diligent",
       "tier": 0,
-      "value": 23
+      "value": 24
     },
     {
       "id": "daily-grinder",
@@ -187,7 +201,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 18
+      "value": 20
     },
     {
       "id": "boss-slayer",
@@ -207,6 +221,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-12",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-11-11",
         "cleared": 1,
@@ -376,7 +395,7 @@
     "perfectDays": 2,
     "run": 0,
     "bestRun": 1,
-    "questsDone": 18,
+    "questsDone": 20,
     "bosses": [
       "2026-11-02"
     ],
@@ -389,5 +408,5 @@
       "commit"
     ]
   },
-  "syncedAt": "2026-11-11T23:26:55.433Z"
+  "syncedAt": "2026-11-12T22:43:03.102Z"
 }
