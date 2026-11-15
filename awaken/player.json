@@ -2,7 +2,7 @@
   "login": "anhdangtutien",
   "level": 5,
   "overall": "C",
-  "overallPercentile": 0.6044945779145889,
+  "overallPercentile": 0.618922949940352,
   "layout": "default",
   "class": {
     "name": "Novice",
@@ -13,15 +13,15 @@
   "stats": [
     {
       "code": "STR",
-      "value": 131,
-      "rank": "C",
-      "percentile": 0.7363172931099772
+      "value": 164,
+      "rank": "B",
+      "percentile": 0.7810468055122042
     },
     {
       "code": "AGI",
-      "value": 2,
+      "value": 4,
       "rank": "C",
-      "percentile": 0.6757751394741894
+      "percentile": 0.7264678925031302
     },
     {
       "code": "INT",
@@ -49,6 +49,20 @@
     }
   ],
   "events": [
+    {
+      "kind": "stat",
+      "subject": "STR",
+      "from": "C",
+      "to": "B",
+      "at": "2026-11-15T21:44:40.938Z"
+    },
+    {
+      "kind": "achievement",
+      "subject": "night-owl",
+      "from": "2",
+      "to": "3",
+      "at": "2026-11-15T21:44:40.938Z"
+    },
     {
       "kind": "level",
       "subject": "Level",
@@ -90,52 +104,38 @@
       "from": "0",
       "to": "1",
       "at": "2026-11-13T22:34:31.066Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "quickdraw",
-      "from": "0",
-      "to": "1",
-      "at": "2026-11-13T22:34:31.066Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "night-owl",
-      "from": "1",
-      "to": "2",
-      "at": "2026-11-13T22:34:31.066Z"
     }
   ],
   "achievements": [
     {
       "id": "pull-shark",
       "tier": 1,
-      "value": 2
+      "value": 3
     },
     {
       "id": "quickdraw",
       "tier": 1,
-      "value": 1
+      "value": 2
     },
     {
       "id": "yolo",
       "tier": 1,
-      "value": 2
+      "value": 3
     },
     {
       "id": "relentless",
       "tier": 1,
-      "value": 131
+      "value": 164
     },
     {
       "id": "unbroken",
       "tier": 0,
-      "value": 4
+      "value": 5
     },
     {
       "id": "night-owl",
-      "tier": 2,
-      "value": 36
+      "tier": 3,
+      "value": 46
     },
     {
       "id": "early-bird",
@@ -145,7 +145,7 @@
     {
       "id": "weekend-warrior",
       "tier": 3,
-      "value": 45
+      "value": 56
     },
     {
       "id": "gate-opener",
@@ -195,17 +195,17 @@
     {
       "id": "berserker",
       "tier": 2,
-      "value": 38
+      "value": 49
     },
     {
       "id": "diligent",
       "tier": 0,
-      "value": 26
+      "value": 27
     },
     {
       "id": "daily-grinder",
       "tier": 0,
-      "value": 2
+      "value": 3
     },
     {
       "id": "perfect-week",
@@ -215,7 +215,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 23
+      "value": 26
     },
     {
       "id": "boss-slayer",
@@ -235,6 +235,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-15",
+        "cleared": 3,
+        "total": 3
+      },
       {
         "date": "2026-11-14",
         "cleared": 2,
@@ -416,10 +421,10 @@
         "total": 3
       }
     ],
-    "perfectDays": 2,
-    "run": 0,
+    "perfectDays": 3,
+    "run": 1,
     "bestRun": 1,
-    "questsDone": 23,
+    "questsDone": 26,
     "bosses": [
       "2026-11-09",
       "2026-11-02"
@@ -433,5 +438,5 @@
       "commit"
     ]
   },
-  "syncedAt": "2026-11-14T21:25:53.498Z"
+  "syncedAt": "2026-11-15T21:44:40.938Z"
 }
