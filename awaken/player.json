@@ -2,7 +2,7 @@
   "login": "anhdangtutien",
   "level": 5,
   "overall": "C",
-  "overallPercentile": 0.618922949940352,
+  "overallPercentile": 0.6216572378451103,
   "layout": "default",
   "class": {
     "name": "Novice",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 164,
+      "value": 178,
       "rank": "B",
-      "percentile": 0.7810468055122042
+      "percentile": 0.7962423943829294
     },
     {
       "code": "AGI",
@@ -110,7 +110,7 @@
     {
       "id": "pull-shark",
       "tier": 1,
-      "value": 3
+      "value": 4
     },
     {
       "id": "quickdraw",
@@ -120,22 +120,22 @@
     {
       "id": "yolo",
       "tier": 1,
-      "value": 3
+      "value": 4
     },
     {
       "id": "relentless",
       "tier": 1,
-      "value": 164
+      "value": 178
     },
     {
       "id": "unbroken",
       "tier": 0,
-      "value": 5
+      "value": 6
     },
     {
       "id": "night-owl",
       "tier": 3,
-      "value": 46
+      "value": 50
     },
     {
       "id": "early-bird",
@@ -145,7 +145,7 @@
     {
       "id": "weekend-warrior",
       "tier": 3,
-      "value": 56
+      "value": 54
     },
     {
       "id": "gate-opener",
@@ -200,22 +200,22 @@
     {
       "id": "diligent",
       "tier": 0,
-      "value": 27
+      "value": 28
     },
     {
       "id": "daily-grinder",
       "tier": 0,
-      "value": 3
+      "value": 4
     },
     {
       "id": "perfect-week",
       "tier": 0,
-      "value": 1
+      "value": 2
     },
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 26
+      "value": 29
     },
     {
       "id": "boss-slayer",
@@ -230,11 +230,16 @@
     {
       "id": "collector",
       "tier": 1,
-      "value": 5
+      "value": 6
     }
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-16",
+        "cleared": 3,
+        "total": 3
+      },
       {
         "date": "2026-11-15",
         "cleared": 3,
@@ -421,10 +426,10 @@
         "total": 3
       }
     ],
-    "perfectDays": 3,
-    "run": 1,
-    "bestRun": 1,
-    "questsDone": 26,
+    "perfectDays": 4,
+    "run": 2,
+    "bestRun": 2,
+    "questsDone": 29,
     "bosses": [
       "2026-11-09",
       "2026-11-02"
@@ -435,8 +440,9 @@
       "average",
       "three",
       "mp",
-      "commit"
+      "commit",
+      "streak"
     ]
   },
-  "syncedAt": "2026-11-15T21:44:40.938Z"
+  "syncedAt": "2026-11-17T00:46:35.149Z"
 }
