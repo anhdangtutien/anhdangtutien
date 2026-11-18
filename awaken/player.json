@@ -1,8 +1,8 @@
 {
   "login": "anhdangtutien",
-  "level": 5,
+  "level": 6,
   "overall": "C",
-  "overallPercentile": 0.6229451972698818,
+  "overallPercentile": 0.6265176499429891,
   "layout": "default",
   "class": {
     "name": "Novice",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 183,
+      "value": 197,
       "rank": "B",
-      "percentile": 0.8012399107762014
+      "percentile": 0.8141838330906299
     },
     {
       "code": "AGI",
@@ -49,6 +49,13 @@
     }
   ],
   "events": [
+    {
+      "kind": "level",
+      "subject": "Level",
+      "from": "5",
+      "to": "6",
+      "at": "2026-11-18T23:22:24.047Z"
+    },
     {
       "kind": "achievement",
       "subject": "unbroken",
@@ -97,13 +104,6 @@
       "from": "0",
       "to": "1",
       "at": "2026-11-14T21:25:53.498Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "weekend-warrior",
-      "from": "1",
-      "to": "3",
-      "at": "2026-11-14T21:25:53.498Z"
     }
   ],
   "achievements": [
@@ -125,17 +125,17 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 183
+      "value": 197
     },
     {
       "id": "unbroken",
       "tier": 1,
-      "value": 7
+      "value": 8
     },
     {
       "id": "night-owl",
       "tier": 3,
-      "value": 52
+      "value": 49
     },
     {
       "id": "early-bird",
@@ -145,7 +145,7 @@
     {
       "id": "weekend-warrior",
       "tier": 3,
-      "value": 52
+      "value": 49
     },
     {
       "id": "gate-opener",
@@ -200,7 +200,7 @@
     {
       "id": "diligent",
       "tier": 0,
-      "value": 29
+      "value": 30
     },
     {
       "id": "daily-grinder",
@@ -215,7 +215,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 32
+      "value": 34
     },
     {
       "id": "boss-slayer",
@@ -235,6 +235,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-18",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-11-17",
         "cleared": 3,
@@ -432,9 +437,9 @@
       }
     ],
     "perfectDays": 5,
-    "run": 3,
+    "run": 0,
     "bestRun": 3,
-    "questsDone": 32,
+    "questsDone": 34,
     "bosses": [
       "2026-11-09",
       "2026-11-02"
@@ -449,5 +454,5 @@
       "streak"
     ]
   },
-  "syncedAt": "2026-11-17T23:49:51.593Z"
+  "syncedAt": "2026-11-18T23:22:24.047Z"
 }
