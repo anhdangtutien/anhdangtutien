@@ -2,7 +2,7 @@
   "login": "anhdangtutien",
   "level": 6,
   "overall": "C",
-  "overallPercentile": 0.6265176499429891,
+  "overallPercentile": 0.6267777975704283,
   "layout": "default",
   "class": {
     "name": "Novice",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 197,
+      "value": 198,
       "rank": "B",
-      "percentile": 0.8141838330906299
+      "percentile": 0.8150537901758261
     },
     {
       "code": "AGI",
@@ -125,17 +125,17 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 197
+      "value": 198
     },
     {
       "id": "unbroken",
       "tier": 1,
-      "value": 8
+      "value": 9
     },
     {
       "id": "night-owl",
       "tier": 3,
-      "value": 49
+      "value": 48
     },
     {
       "id": "early-bird",
@@ -200,12 +200,12 @@
     {
       "id": "diligent",
       "tier": 0,
-      "value": 30
+      "value": 31
     },
     {
       "id": "daily-grinder",
       "tier": 0,
-      "value": 5
+      "value": 6
     },
     {
       "id": "perfect-week",
@@ -215,12 +215,12 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 34
+      "value": 37
     },
     {
       "id": "boss-slayer",
       "tier": 1,
-      "value": 2
+      "value": 3
     },
     {
       "id": "escape-artist",
@@ -235,6 +235,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-19",
+        "cleared": 3,
+        "total": 3
+      },
       {
         "date": "2026-11-18",
         "cleared": 2,
@@ -436,11 +441,12 @@
         "total": 3
       }
     ],
-    "perfectDays": 5,
-    "run": 0,
+    "perfectDays": 6,
+    "run": 1,
     "bestRun": 3,
-    "questsDone": 34,
+    "questsDone": 37,
     "bosses": [
+      "2026-11-16",
       "2026-11-09",
       "2026-11-02"
     ],
@@ -454,5 +460,5 @@
       "streak"
     ]
   },
-  "syncedAt": "2026-11-18T23:22:24.047Z"
+  "syncedAt": "2026-11-19T23:33:34.749Z"
 }
