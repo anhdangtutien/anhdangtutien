@@ -2,26 +2,26 @@
   "login": "anhdangtutien",
   "level": 6,
   "overall": "C",
-  "overallPercentile": 0.6267777975704283,
+  "overallPercentile": 0.6359725808414226,
   "layout": "default",
   "class": {
-    "name": "Novice",
-    "element": "Neutral",
-    "from": "PLpgSQL"
+    "name": "Blade Master",
+    "element": "Lightning",
+    "from": "TypeScript"
   },
-  "title": "Weekend Warrior",
+  "title": "Berserker",
   "stats": [
     {
       "code": "STR",
-      "value": 198,
+      "value": 226,
       "rank": "B",
-      "percentile": 0.8150537901758261
+      "percentile": 0.8368975721524683
     },
     {
       "code": "AGI",
-      "value": 4,
+      "value": 5,
       "rank": "C",
-      "percentile": 0.7264678925031302
+      "percentile": 0.7471618518819576
     },
     {
       "code": "INT",
@@ -49,6 +49,13 @@
     }
   ],
   "events": [
+    {
+      "kind": "achievement",
+      "subject": "daily-grinder",
+      "from": "0",
+      "to": "1",
+      "at": "2026-11-20T23:03:19.283Z"
+    },
     {
       "kind": "level",
       "subject": "Level",
@@ -97,13 +104,6 @@
       "from": "D",
       "to": "C",
       "at": "2026-11-14T21:25:53.498Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "relentless",
-      "from": "0",
-      "to": "1",
-      "at": "2026-11-14T21:25:53.498Z"
     }
   ],
   "achievements": [
@@ -125,17 +125,17 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 198
+      "value": 226
     },
     {
       "id": "unbroken",
       "tier": 1,
-      "value": 9
+      "value": 10
     },
     {
       "id": "night-owl",
-      "tier": 3,
-      "value": 48
+      "tier": 2,
+      "value": 43
     },
     {
       "id": "early-bird",
@@ -144,8 +144,8 @@
     },
     {
       "id": "weekend-warrior",
-      "tier": 3,
-      "value": 49
+      "tier": 2,
+      "value": 43
     },
     {
       "id": "gate-opener",
@@ -200,12 +200,12 @@
     {
       "id": "diligent",
       "tier": 0,
-      "value": 31
+      "value": 32
     },
     {
       "id": "daily-grinder",
-      "tier": 0,
-      "value": 6
+      "tier": 1,
+      "value": 7
     },
     {
       "id": "perfect-week",
@@ -215,7 +215,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 37
+      "value": 40
     },
     {
       "id": "boss-slayer",
@@ -235,6 +235,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-20",
+        "cleared": 3,
+        "total": 3
+      },
       {
         "date": "2026-11-19",
         "cleared": 3,
@@ -441,10 +446,10 @@
         "total": 3
       }
     ],
-    "perfectDays": 6,
-    "run": 1,
+    "perfectDays": 7,
+    "run": 2,
     "bestRun": 3,
-    "questsDone": 37,
+    "questsDone": 40,
     "bosses": [
       "2026-11-16",
       "2026-11-09",
@@ -460,5 +465,5 @@
       "streak"
     ]
   },
-  "syncedAt": "2026-11-19T23:33:34.749Z"
+  "syncedAt": "2026-11-20T23:03:19.283Z"
 }
